@@ -1,5 +1,5 @@
 footer {
-  background-color: #4ab8b9;
+  background-color: #C4C4C4;
   width: 100%;
   color: #fff;
   font-family: "Ubuntu", sans-serif;
@@ -11,6 +11,7 @@ footer p {
 
 p.copyright {
   font-size: .8rem;
+  text-align: center;
 }
 
 .main-content {
