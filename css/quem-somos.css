@@ -5,7 +5,7 @@
 .section-quem-somos {
   display: flex;
   align-items: center;
-  padding: 0 0 6% 0;
+  padding: 10rem 8.3% 0;
 }
 
 #texto-quem-somos {
@@ -20,7 +20,7 @@
   padding-right: 10%;
 }
 
-.quem-somos-main h2 {
+.section-quem-somos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   color: #4ab8b9;
@@ -56,6 +56,12 @@ p {
   color: #000000;
   padding-top: 0%;
   line-height: 1.5rem;
+  text-align: justify;
+}
+
+h3 {
+  padding: 30px;
+  text-align: center;
 }
 
 #section-missao-historia {
