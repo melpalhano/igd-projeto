@@ -1,0 +1,112 @@
+.imgSection{
+    background: url(../assets/studio.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #4a9185;
+    background-blend-mode: multiply; 
+} 
+
+.headline-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#ohanaCast{
+    margin-top: 9rem;
+}
+
+#card{
+    display: inline-block;
+    position: relative;
+}
+
+#imgText{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    max-width: 50vw;
+    justify-content: center column;
+}
+
+#imgButton{
+    position: relative;
+    top: 1vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+#spotyButton, #deezerButton{
+    height: 4vw;
+    width: 20vw;
+    border-radius: 30px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;    
+}
+
+.fa-spotify, .fa-deezer{
+  font-size: 1.5rem;
+  margin: 0 2.5%;
+}
+
+#spotyButton{
+    background-color: #5cba54;
+}
+#deezerButton{
+    background-color: white;
+}
+
+#spotyButton:hover{
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+    transform: scale(1.05);
+}
+
+#deezerButton:hover{
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 992px) {
+    .imgSection{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    } 
+
+    .headline-content {
+        margin-top: 7rem;
+    }
+
+    #ohanaCast{
+        margin-top: 0;
+    }
+
+    #imgText{
+        top: 10%;
+    }
+   
+    #imgButton{
+        top: 10px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    #spotyButton, #deezerButton{
+        height: 45px;
+        width: 250px;
+        margin: 8px;
+        font-size: 15px;
+    }    
+}
+

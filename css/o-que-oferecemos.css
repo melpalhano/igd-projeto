@@ -1,0 +1,148 @@
+.oferecemos-main {
+  padding: 10rem 8.3% 6%;
+}
+
+.desc {
+  margin-bottom: 3rem;
+}
+
+.desc h2 {
+  font-family: "Rowdies", cursive;
+    text-transform: uppercase;
+    color: #4ab8b9;
+    font-size: 2.3rem;
+}
+
+.desc p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 1.4rem;
+  word-spacing: 0.2rem;
+  padding-top: 5%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  box-shadow: 7px 7px 14px -4px rgba(145, 145, 145, 1);
+}
+
+.card a {
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover img {
+  transform: scale(1.5) rotate(8deg);
+}
+
+.card button {
+  outline: none;
+  border: none;
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  color: #f5f5f5;
+  background-color: #4ab8b9;
+}
+
+.card a {
+  width: 100%;
+}
+
+.card button:hover {
+  cursor: pointer;
+}
+
+.card .img-container {
+  height: 15vw;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 2s ease-in-out;
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+
+  .card {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    width: 55%;
+  }
+
+  .card:last-child {
+    margin-bottom: 2.5%;
+  }
+
+  .card .img-container {
+    height: 30vw;
+  }
+
+  .card button {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .oferecemos-main {
+    padding: 7rem 8.3% 6%;
+  }
+
+  .desc {
+    margin-bottom: 1.5rem;
+  }
+
+  .desc h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 65%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .card:last-child {
+    margin-bottom: 10% !important;
+  }
+
+  .card .img-container {
+    height: 35vw;
+  }
+
+  .card button {
+    font-size: 5vw;
+  }
+}

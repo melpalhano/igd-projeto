@@ -1,0 +1,99 @@
+/* este arquivo CSS foi criado para reutilização de código para as seguintes páginas:
+OhanaApp
+ciclo-de-formacao
+OhanaCast
+ */
+
+.page-content {
+  margin: 10%;
+} 
+
+.page-content h1 {
+  color: #fcc63e;
+  font-size: 2.5rem;
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  /* margin-bottom: 4%; */
+}
+
+.page-content h2 {
+  font-size: 2.4rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4ab8b9;
+}
+
+.page-content p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1.7vw;
+  line-height: 1.4rem;
+  word-spacing: 0.2rem;
+  padding: 5% 0%;
+}
+
+.headline-itens {
+  padding: 0 8.3%;
+  width: 100%;
+}
+
+.headline-itens h1 {
+  color: #fcc63e;
+  font-size: 2.5rem;
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4%;
+}
+
+.headline-itens p {
+  color: #fff;
+  max-width: 50%;
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+  word-spacing: 0.2rem;
+  line-height: 1.4rem;
+}
+
+@media (max-width: 992px) {
+  .headline-itens p {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .headline-itens {
+    margin-bottom: 2rem;
+  }
+  
+  .headline-itens h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 7rem;
+  }
+
+  .headline-itens p {
+    margin-top: 3.5rem;
+    max-width: 80%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .headline-itens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headline-itens p {
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+
+  .apps {
+    margin-top: 5%;
+  }
+}

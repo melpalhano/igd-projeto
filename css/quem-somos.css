@@ -1,0 +1,255 @@
+.quem-somos-main {
+  padding: 10rem 8.3% 6%;
+}
+
+.section-quem-somos {
+  display: flex;
+  align-items: center;
+  padding: 0 0 6% 0;
+}
+
+#texto-quem-somos {
+  width: 50%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-top: 0;
+  padding-bottom: 5%;
+  padding-right: 10%;
+}
+
+.quem-somos-main h2 {
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  color: #4ab8b9;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+}
+
+#article-img-quem-somos {
+  width: 50%;
+  height: 100%;
+}
+
+#img-quem-somos {
+  max-width: 100%;
+  max-height: 80%;
+  width: 100%;
+  height: auto;
+}
+
+#h2-texto-missao-historia {
+  font-family: "Rowdies", cursive;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+  color:  #fcc63e;
+}
+
+p {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  padding-top: 0%;
+  line-height: 1.5rem;
+}
+
+#section-missao-historia {
+  display: flex;
+  align-items: center;
+  padding: 6% 0 6% 0;
+}
+
+#texto-historia {
+  width: 50%;
+  flex-direction: column;
+  padding: 0 0 0 8.3%;
+}
+
+#img-historia {
+  width: 50%;
+}
+
+#img-historia img {
+  width: 100%;
+}
+
+#texto-missao {
+  width: 50%;
+}
+
+#texto-nossa-equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imagens-membros {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.figure-membros {
+  object-fit: none;
+}
+
+#section-odsatuamos {
+  display: flex;
+  align-items: center;
+  padding: 6% 0 6% 0;
+}
+
+#texto-odsatuamos {
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  padding: 0 8.3% 0 0;
+}
+
+#texto-odsatuamos p {
+  display: inline;
+}
+
+.p-ods {
+  font-weight: 700;
+}
+
+.container-img-ods {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.img-ods {
+  max-width: 30%;
+}
+
+.img-ods img {
+  max-width: 100%;
+}
+
+
+@media (max-width: 992px) {
+  .section-quem-somos {
+    display: block;
+    justify-content: center;
+  }
+
+  #texto-quem-somos {
+    width: 100%;
+    padding: 0 0 5% 0;
+  }
+
+  .quem-somos-main h2 {
+    padding-top: 0;
+  }
+  
+  #article-img-quem-somos {
+    width: 100%;     
+  }
+
+  #section-missao-historia {
+    display: flex;
+    flex-direction: column-reverse;    
+  }
+  
+  #texto-historia {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding: 0 0 0 0%;
+  }
+  
+  #img-historia {
+    width: 100%;
+  }
+
+  #texto-missao {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  #section-odsatuamos {  
+    flex-direction: column;
+  }
+
+  .container-img-ods {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .img-ods {
+    margin: 5% 0;
+  }
+ 
+  #texto-odsatuamos {
+    width: 100%;  
+    padding: 0 8.3% 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .quem-somos-main {
+    padding: 7rem 8.3% 6%;
+  }
+
+  .section-quem-somos {
+    display: block;
+    justify-content: center;
+  }
+
+  #texto-quem-somos {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  
+  #article-img-quem-somos {
+    width: 100%;     
+  }
+
+  #section-missao-historia {
+    display: flex;
+    flex-direction: column-reverse;    
+  }
+  
+  #texto-historia {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding: 0 0 5% 0%;
+  }
+  
+  #img-historia {
+    width: 100%;
+  }
+  #texto-missao {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  #section-odsatuamos {  
+    flex-direction: column;
+  }
+
+  .container-img-ods {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-ods {
+    max-width: 100%;
+    margin: 5% 0;
+  }
+   
+  #texto-odsatuamos {
+    width: 100%;  
+    padding-bottom: 5%;
+    padding-right: 0;
+  }
+
+}

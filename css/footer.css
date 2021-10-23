@@ -1,0 +1,109 @@
+footer {
+  background-color: #4ab8b9;
+  width: 100%;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+footer p {
+  color: #fff;
+}
+
+p.copyright {
+  font-size: .8rem;
+}
+
+.main-content {
+  padding: 3% 8.3% 4%;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: flex-end;
+}
+
+.column {
+  flex: 1;
+}
+
+.logos {
+  margin-right: 10%;
+}
+
+.ohana-logo {
+  width: 4.5rem;
+}
+
+.enactus-logo {
+  width: 8rem;
+}
+
+.center-column {
+  text-align: center;
+}
+
+.center-column a {
+  transition: 0.3s;
+}
+
+.center-column a:hover {
+  opacity: 60%;
+}
+
+.center-column .fa-spotify,
+.center-column .fa-deezer,
+.center-column .fa-instagram {
+  font-size: 2.5rem;
+  margin: 0 2.5%;
+}
+
+.right-column {
+  text-align: end;
+}
+
+.right-column > h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.right-column > p {
+  line-height: 1.2rem;
+}
+
+.bottom-content {
+  font-size: 0.9rem;
+  padding: 2.5% 8.3%;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .main-content {
+    flex-wrap: wrap;
+  }
+  .enactus-logo {
+    width: 7rem;
+  }
+  .logos {
+    margin-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .left-column {
+    text-align: center;
+    margin: 4% 0 11%;
+  }
+  .right-column {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .bottom-content {
+    font-size: 0.8rem;
+    padding: 4% 0;
+  }
+  footer p {
+    font-size: .9rem;
+  }
+}

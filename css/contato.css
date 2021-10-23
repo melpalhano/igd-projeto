@@ -1,0 +1,139 @@
+.contact-main {
+    padding: 10rem 8.3% 6%;
+    font-family: "Ubuntu", sans-serif;
+    background-image: url("../assets/background-img.png");
+    background-size: auto 700px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contact-content {
+    display: flex; 
+}
+
+.c-content {
+    width: 50%;
+}
+
+.contact-container h2 {
+    font-family: "Rowdies", cursive;
+    text-transform: uppercase;
+    color: #4ab8b9;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-container h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .check-validation {
+      display: none;
+  }
+
+ .field {
+     display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .9rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    border: 3px solid #e0e0e0;
+    border-radius: 0.3rem;
+    outline: none;
+}
+
+.field:focus {
+    border-bottom: 3px solid #4ab8b9;
+  }
+
+.message-field {
+    height: 8rem;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    border: #4ab8b9 3px solid;
+    border-radius: 5px;
+    padding: .9rem 5rem;
+    color: #4ab8b9;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #4ab8b9;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.c-location {
+    margin-top: 4rem;
+}
+
+.c-social .fa-spotify,
+.c-social .fa-deezer,
+.c-social .fa-instagram {
+  font-size: 3rem;
+  margin: 0 2.5%;
+  color:#424242;
+  transition: .3s;
+}
+
+.c-social .fa-spotify:hover,
+.c-social .fa-deezer:hover,
+.c-social .fa-instagram:hover {
+    opacity: 60%;
+}
+
+.contact-location {
+    padding-left: 8.3%;
+    padding-top: 8.3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-wrapper {
+    margin-top: 2rem;
+    border: 3px solid #e0e0e0;
+    border-radius: 0.3rem;
+}
+
+.contact-googlemap {
+    width: 100%;
+    height: 200px;
+}
+
+.reset-form:-moz-ui-invalid:not(output) {
+    box-shadow: none;
+    border: 1px solid inherit;
+}
+
+@media (max-width: 992px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .c-content {
+        width: 100%;
+    }
+
+    .contact-location {
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-main {
+      padding: 7rem 8.3% 6%;
+    }
+}  
