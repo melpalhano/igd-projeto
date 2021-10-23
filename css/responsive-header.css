@@ -26,12 +26,13 @@ body {
   align-items: center;
 }
 
-.ohana-menu-logo img {
+.igd-menu-logo img {
   width: 4rem;
   margin-right: 0.6rem;
+  width: 200px;
 }
 
-.ohana-menu-name img {
+.igd-menu-name img {
   width: 5rem;
 }
 
