@@ -23,7 +23,7 @@
 }
 
 .index-headline-content {
-  background: url("../assets/background-index.jpeg") no-repeat center;
+  background:  linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../assets/background-index.jpeg") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
