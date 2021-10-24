@@ -73,12 +73,12 @@
   transition: 0.5s;
 }
 
-.index-container-oferecemos {
+.index-container-projetos {
   padding: 12% 8.3% 9%;
   display: flex;
 }
 
-.index-container-oferecemos h2 {
+.index-container-projetos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   color: #0192d1;
@@ -86,11 +86,11 @@
   margin-bottom: 4rem;
 }
 
-.index-container-oferecemos h3 {
+.index-container-projetos h3 {
   margin-bottom: 0;
 }
 
-.index-container-oferecemos p {
+.index-container-projetos p {
   margin-bottom: .8rem;
 }
 
@@ -175,7 +175,7 @@
   width: 100%;
 }
 
-.index-impactos-text > h2 {
+.index-impacto-text > h2 {
   margin-bottom: 3rem;
 }
 
@@ -294,11 +294,11 @@
     margin: 2rem 0 6rem;
   }
 
-  .index-container-oferecemos {
+  .index-container-projetos {
     flex-direction: column;
   }
 
-  .index-container-oferecemos h2,
+  .index-container-projetos h2,
   .index-citacao h2,
   .index-container-parcerias h2 {
     margin-bottom: 3.5rem;
@@ -330,7 +330,7 @@
     align-items: center;
   }
 
-  .index-impactos-text {
+  .index-impacto-text {
     width: auto;
     padding: 0;
   }
@@ -385,7 +385,7 @@
     margin: 2rem 0 3.5rem;
   }
 
-  .index-container-oferecemos h2,
+  .index-container-projetos h2,
   .index-citacao h2,
   .index-container-parcerias h2 {
     font-size: 1.7rem;
@@ -404,7 +404,7 @@
 }
 
 @media (max-width: 576px) {
-  .index-container-oferecemos {
+  .index-container-projetos {
     flex-direction: column;
   }
 
