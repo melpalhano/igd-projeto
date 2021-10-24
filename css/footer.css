@@ -95,35 +95,18 @@ p.copyright {
   text-align: center;
 }
 
-@media (max-width: 992px) {
-  .main-content {
-    flex-wrap: wrap;
-  }
-  .enactus-logo {
-    width: 7rem;
-  }
+@media (max-width: 450px) {
   .logos {
-    margin-right: 0;
-  }
-}
-@media (max-width: 768px) {
-  .main-content {
+    display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
   }
-  .left-column {
-    text-align: center;
-    margin: 4% 0 11%;
+
+  .main-content {
+    margin-bottom: 1.5rem;
   }
-  .right-column {
-    text-align: center;
-    margin-bottom: 5%;
-  }
-  .bottom-content {
-    font-size: 0.8rem;
-    padding: 4% 0;
-  }
-  footer p {
-    font-size: .9rem;
+
+  .apoio {
+    margin-bottom: 1.5rem;
   }
 }
