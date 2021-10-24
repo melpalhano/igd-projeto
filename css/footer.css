@@ -21,30 +21,19 @@ p.copyright {
   justify-content: center;
 }
 
-/*.column {
-  flex: 1;
-}*/
-
-/*.logos {
-  margin-right: 10%;
-}*/
-
 .ohana-logo {
   width: 14.9375rem;
 }
 
 .logos {
   display: flex;
-  justify-content: center;
-}
-
-.apoio {
-  margin-right: 7.10125rem;
+  justify-content: space-around;
 }
 
 .apoio-texto, .redesSociais-texto {
   text-align: center;
   color: #000000;
+  font-weight: bold;
 }
 
 .plataforma-logo {
