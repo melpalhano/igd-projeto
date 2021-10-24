@@ -18,7 +18,9 @@ p.copyright {
   padding: 3% 8.3% 4%;
   border-bottom: 1px solid #fff;
   display: flex;
-  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .column {
@@ -30,7 +32,7 @@ p.copyright {
 }
 
 .ohana-logo {
-  width: 4.5rem;
+  width: 14.9375rem;
 }
 
 .enactus-logo {
