@@ -95,7 +95,6 @@
 
 .index-nossas-frentes {
   justify-content: space-evenly;
-  width: 50%;
 }
 
 .index-frentes-imgs {
@@ -124,8 +123,8 @@
   transition: 0.5s;
 }
 
-.index-frente-ohanacast, .index-frente-ohanaapp {
-  margin-right: 1rem;
+.index-projetos {
+  margin: 0 .3rem 0 0;
 }
 
 .index-pesquisa-ohana {
@@ -309,19 +308,10 @@
     width: 10rem;
   }
 
-  .index-nossas-frentes {
-    width: auto;
-  }
-
   .index-frentes-imgs {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-
-  .index-frente-ohanacast,
-  .index-frente-ohanaapp {
-    margin: 0 .3rem 0 0;
   }
 
   .index-pesquisa-ohana {
@@ -415,18 +405,13 @@
     width: 10rem;
   }
 
-  .index-nossas-frentes {
-    width: auto;
-  }
-
   .index-frentes-imgs {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .index-frente-ohanacast,
-  .index-frente-ohanaapp {
+  .index-projetos {
     margin: 0 0 1.5rem;
   }
 
