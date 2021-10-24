@@ -1,7 +1,7 @@
 footer {
   background-color: #C4C4C4;
   width: 100%;
-  color: #fff;
+  color: #000000;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -12,50 +12,78 @@ footer p {
 p.copyright {
   font-size: .8rem;
   text-align: center;
+  color: #000000;
 }
 
 .main-content {
   padding: 3% 8.3% 4%;
-  border-bottom: 1px solid #fff;
   display: flex;
-  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
-.column {
+/*.column {
   flex: 1;
-}
+}*/
 
-.logos {
+/*.logos {
   margin-right: 10%;
-}
+}*/
 
 .ohana-logo {
   width: 14.9375rem;
 }
 
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.apoio {
+  margin-right: 7.10125rem;
+}
+
+.apoio-texto, .redesSociais-texto {
+  text-align: center;
+  color: #000000;
+}
+
+.plataforma-logo {
+  width: 5.75rem;
+}
+
+.inspira-logo {
+  width: 9.52375rem;
+  margin-left: 2rem;
+}
+
+
 .enactus-logo {
   width: 8rem;
 }
 
-.center-column {
-  text-align: center;
+.icones {
+  display: flex;
 }
 
-.center-column a {
+.redesSociais-texto {
+  margin-bottom: 1.5rem;
+}
+
+.redesSociais a {
   transition: 0.3s;
 }
 
-.center-column a:hover {
+.redesSociais a:hover {
   opacity: 60%;
 }
 
-.center-column .fa-spotify,
-.center-column .fa-deezer,
-.center-column .fa-instagram {
+.redesSociais .fa-facebook,
+.redesSociais .fa-instagram {
   font-size: 2.5rem;
-  margin: 0 2.5%;
+}
+
+.redesSociais .fa-facebook {
+  margin-right: 1.673125rem;
 }
 
 .right-column {
