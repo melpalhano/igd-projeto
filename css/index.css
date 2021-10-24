@@ -128,31 +128,6 @@
   margin: 0 .3rem 0 0;
 }
 
-.index-pesquisa-ohana {
-  padding: 8% 0 0 8.3%;
-  width: 50%;
-}
-
-.index-pesquisa-ohana > p {
-  margin: 1rem 0 2rem;
-}
-
-.index-pesquisa-ohana a {
-  border: #0192d1 3px solid;
-  border-radius: 5px;
-  padding: 1rem 3rem;
-  color: #0192d1;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.index-pesquisa-ohana > a:hover {
-  background-color: #0192d1;
-  color: #fff;
-  transition: 0.5s;
-}
-
 .index-citacao {
   padding: 6% 8.3%;
   display: flex;
@@ -165,14 +140,6 @@
   color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 3rem;
-}
-
-.index-impactos-ilustra {
-  width: 50%;
-}
-
-.index-impactos-ilustra img {
-  width: 100%;
 }
 
 .index-impacto-text > h2 {
@@ -197,84 +164,6 @@
   margin-bottom: 3rem;
 }
 
-.index-parceiros {
-  max-width: 17%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 0 1rem;
-}
-
-.parcerias-logos-linha1 {
-  margin-bottom: 2rem;
-}
-
-.parcerias-logos-linha1,
-.parcerias-logos-linha2 {
-  flex-wrap: wrap;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.parcerias-logos-linha1 h3,
-.parcerias-logos-linha2 h3 {
-    margin-bottom: 1rem;
-  }
-
-.parcerias-logos-linha1 img,
-.parcerias-logos-linha2 img {
-  max-width: 10rem;
-  max-height: 10rem;
-  margin-bottom: .5rem;
-}
-
-.index-doar {
-  padding: 6% 8.3%;
-}
-
-.index-doar h2 {
-  font-family: "Rowdies", cursive;
-  text-transform: uppercase;
-  color: #0192d1;
-  font-size: 2.3rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.index-doar .desc-us {
-  justify-content: space-evenly;
-}
-
-.index-doar .desc-us-text {
-  max-width: 70%;
-}
-
-.index-doar .button {
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5rem;
-}
-
-.index-doar .button button {
-  border: #0192d1 3px solid;
-  border-radius: 5px;
-  padding: 1rem 3rem;
-  background-color: #fff;
-  color: #0192d1;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.5s;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1rem;
-}
-
-.index-doar .button button:hover {
-  background-color: #0192d1;
-  color: #fff;
-  transition: 0.5s;
-}
 
 @media (max-width: 992px) {
   .index-headline-content {
@@ -297,6 +186,7 @@
   .index-container-projetos {
     flex-direction: column;
   }
+}
 
   .index-container-projetos h2,
   .index-citacao h2,
@@ -315,15 +205,6 @@
     height: auto;
   }
 
-  .index-pesquisa-ohana {
-    width: auto;
-    margin-top: 1.5rem;
-    padding: 0;
-  }
-
-  .index-pesquisa-ohana a {
-    padding: 0.7rem 1.5rem;
-  }
 
   .index-citacao {
     flex-direction: column;
@@ -334,22 +215,6 @@
     width: auto;
     padding: 0;
   }
-
-  .index-impactos-ilustra {
-    width: auto;
-  }
-
-  .index-impactos-ilustra img {
-    max-width: 80vw;
-  }
-
-  .parcerias-logos-linha1,
-  .parcerias-logos-linha2 {
-    margin-top: 1.5rem;
-    width: auto;
-    flex-direction: row;
-  }  
-}
 
 @media (max-width: 768px) {
 
@@ -392,17 +257,6 @@
     margin-top: 1.5rem;
   }
 
-  .index-doar .desc-us h2 {
-    font-size: 1.7rem;
-  }
-
-  .parcerias-logos-linha1,
-  .parcerias-logos-linha2 {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 @media (max-width: 576px) {
   .index-container-projetos {
     flex-direction: column;
@@ -421,55 +275,6 @@
     height: auto;
   }
 
-  .index-pesquisa-ohana {
-    width: auto;
-    margin-top: 1.5rem;
-    padding: 0;
-  }
-
-  .index-pesquisa-ohana a {
-    padding: 0.7rem 1.5rem;
-  }
-
-  .parcerias-logos-linha1,
-  .parcerias-logos-linha2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    width: auto;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .index-parceiros {
-    margin: .5rem 0;
-    max-width: 12rem;
-  }
-
-  .index-doar .desc-us-text {
-    max-width: 100%;
-  }
-
-  .index-doar .desc-us {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .index-doar .desc-us h2 {
-    font-size: 1.7rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .index-doar .desc-us p {
-    margin-bottom: 1rem;
-  }
-
-  .index-doar .desc-us-image {
-    margin-bottom: 1rem;
-  }
-
-  .index-doar .button button {
-    padding: 0.7rem 1.5rem;
-  }
+}
+}
 }
