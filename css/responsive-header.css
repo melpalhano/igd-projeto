@@ -8,6 +8,7 @@ body {
   top: 0;
   width: 100%;
   color: #fff;
+  padding: 0.8rem 2%;
 }
 
 .nav {
@@ -40,7 +41,7 @@ body {
 .nav-menu .nav-menu-item,
 .nav-menu-donate {
   display: inline-block;
-  padding: 1rem 0.6rem;
+  padding: 1rem 1.2rem;
 }
 
 .nav-menu .nav-menu-item > a {
@@ -169,14 +170,6 @@ body {
     padding: 0.5rem 1.5rem;
   }
 
-  .ohana-menu-logo img {
-    width: 3.5rem;
-    margin-right: 0.8rem;
-  }
-
-  .ohana-menu-name img {
-    width: 5rem;
-  }
 
   .menu-logo {
     display: flex;
@@ -184,7 +177,7 @@ body {
     justify-content: space-between;
   }
 
-  .nav-hamburguer {
+  .nav-IGD {
     display: block;
     padding-right: 2rem;
   }
@@ -243,4 +236,13 @@ body {
     position: static;
     text-align: left;
   }
+}
+
+.menu-container{
+
+  padding-right: 8rem;
+}
+
+.menu-logo{
+  padding-left: 4rem;
 }
