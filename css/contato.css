@@ -18,7 +18,7 @@
 .contact-container h2 {
     font-family: "Rowdies", cursive;
     text-transform: uppercase;
-    color: #4ab8b9;
+    color: #0192d1;
     font-size: 2.3rem;
     margin-bottom: 3rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .field:focus {
-    border-bottom: 3px solid #4ab8b9;
+    border-bottom: 3px solid #0192d1;
   }
 
 .message-field {
@@ -58,10 +58,10 @@
 
 .submit-btn {
     margin-top: 1rem;
-    border: #4ab8b9 3px solid;
+    border: #0192d1 3px solid;
     border-radius: 5px;
     padding: .9rem 5rem;
-    color: #4ab8b9;
+    color: #0192d1;
     font-weight: 700;
     cursor: pointer;
     transition: 0.5s;
@@ -70,7 +70,7 @@
 }
 
 .submit-btn:hover {
-    background-color: #4ab8b9;
+    background-color: #0192d1;
     color: #fff;
     transition: 0.5s;
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  background-color: #4ab8b9;
+  background-color: #93c33c;
   position: fixed;
   top: 0;
   width: 100%;
@@ -30,6 +30,7 @@ body {
   width: 4rem;
   margin-right: 0.6rem;
   width: 200px;
+  filter: drop-shadow(5px 5px 5px #222); 
 }
 
 .igd-menu-name img {
@@ -77,12 +78,12 @@ body {
 
 .nav-menu-donate a:hover {
   background-color: #fff;
-  color: #4ab8b9;
+  color: #93c33c;
   transition: 0.5s;
 }
 
 .nav-menu-donate a.active {
-  border: #fcc63e 2px solid !important;
+  border: #fdd305 2px solid !important;
 }
 
 .item-dropdown .fa-chevron-down {
@@ -103,7 +104,7 @@ body {
   border-radius: 0.3rem;
   min-width: 200px;
   background-color: #fff;
-  color: #4ab8b9;
+  color: #93c33c;
   display: none;
   text-align: center;
   box-shadow: 4px 4px 18px -10px rgba(0,0,0,0.49);
@@ -215,7 +216,7 @@ body {
   }
 
   .nav-menu .nav-dropdown {
-    background-color: #4ab8b9;
+    background-color: #93c33c;
     color: #fff;
     font-weight: 500;
   }
@@ -230,7 +231,7 @@ body {
   }
 
   .nav-menu .nav-dropdown-item:hover {
-    background-color: #4ab8b9;
+    background-color: #93c33c;
   }
 
   .nav-dropdown {

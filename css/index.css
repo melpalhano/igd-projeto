@@ -36,7 +36,7 @@
 }
 
 .index-headline-content h1 {
-  color: #fcc63e;
+  color: #f4931e;
   font-size: 1.7rem;
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
@@ -55,8 +55,8 @@
 
 .index-headline-content button {
   background-color:#fff;
-  border: none;
-  color: #212121;
+  border: #f4931e 3px solid;
+  color: #f4931e;
   padding: 1.4rem 4.5rem;
   text-align: center;
   font-size: 0.9rem;
@@ -68,7 +68,8 @@
 }
 
 .index-headline-content button:hover {
-  background-color: #cfcfcf;
+  background-color: #f4931e;
+  color: #fff;
   transition: 0.5s;
 }
 
@@ -80,7 +81,7 @@
 .index-container-oferecemos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 4rem;
 }
@@ -119,7 +120,7 @@
 }
 
 .index-frentes-imgs .frente:hover {
-  border: #4ab8b9 3px solid;
+  border: #0192d1 3px solid;
   transition: 0.5s;
 }
 
@@ -137,17 +138,17 @@
 }
 
 .index-pesquisa-ohana a {
-  border: #4ab8b9 3px solid;
+  border: #0192d1 3px solid;
   border-radius: 5px;
   padding: 1rem 3rem;
-  color: #4ab8b9;
+  color: #0192d1;
   font-weight: 700;
   cursor: pointer;
   transition: 0.5s;
 }
 
 .index-pesquisa-ohana > a:hover {
-  background-color: #4ab8b9;
+  background-color: #0192d1;
   color: #fff;
   transition: 0.5s;
 }
@@ -161,7 +162,7 @@
 .index-container-impactos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #fcc63e;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 3rem;
 }
@@ -191,7 +192,7 @@
 .index-parcerias-text h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 3rem;
 }
@@ -236,7 +237,7 @@
 .index-doar h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -257,11 +258,11 @@
 }
 
 .index-doar .button button {
-  border: #4ab8b9 3px solid;
+  border: #0192d1 3px solid;
   border-radius: 5px;
   padding: 1rem 3rem;
   background-color: #fff;
-  color: #4ab8b9;
+  color: #0192d1;
   font-weight: 700;
   cursor: pointer;
   transition: 0.5s;
@@ -270,7 +271,7 @@
 }
 
 .index-doar .button button:hover {
-  background-color: #4ab8b9;
+  background-color: #0192d1;
   color: #fff;
   transition: 0.5s;
 }
