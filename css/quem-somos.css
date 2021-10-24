@@ -5,7 +5,8 @@
 .section-quem-somos {
   display: flex;
   align-items: center;
-  padding: 10rem 8.3% 0;
+  padding: 11rem 8.3% 9rem;
+
 }
 
 #texto-quem-somos {
@@ -23,7 +24,7 @@
 .section-quem-somos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 3rem;
 }
@@ -52,7 +53,7 @@ p {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   padding-top: 0%;
   line-height: 1.5rem;

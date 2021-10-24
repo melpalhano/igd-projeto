@@ -8,7 +8,7 @@
 }
 
 .index-main p {
-  line-height: 1.5rem;
+ line-height: 1.8rem;
 }
 
 .index-main h3 {
@@ -36,8 +36,8 @@
 }
 
 .index-headline-content h1 {
-  color: #fcc63e;
-  font-size: 1.7rem;
+  color: #f4931e;
+  font-size: 2rem;
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
@@ -48,15 +48,15 @@
   color: #fff;
   max-width: 50%;
   text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
-  line-height: 1.4rem;
+  line-height: 1.7rem;
   margin-bottom: 4%;
   font-size: 1.1rem;
 }
 
 .index-headline-content button {
   background-color:#fff;
-  border: none;
-  color: #212121;
+  border: #f4931e 3px solid;
+  color: #f4931e;
   padding: 1.4rem 4.5rem;
   text-align: center;
   font-size: 0.9rem;
@@ -68,28 +68,29 @@
 }
 
 .index-headline-content button:hover {
-  background-color: #cfcfcf;
+  background-color: #f4931e;
+  color: #fff;
   transition: 0.5s;
 }
 
-.index-container-oferecemos {
-  padding: 5% 8.3% 6%;
+.index-container-projetos {
+  padding: 12% 8.3% 9%;
   display: flex;
 }
 
-.index-container-oferecemos h2 {
+.index-container-projetos h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 4rem;
 }
 
-.index-container-oferecemos h3 {
+.index-container-projetos h3 {
   margin-bottom: 0;
 }
 
-.index-container-oferecemos p {
+.index-container-projetos p {
   margin-bottom: .8rem;
 }
 
@@ -119,7 +120,7 @@
 }
 
 .index-frentes-imgs .frente:hover {
-  border: #4ab8b9 3px solid;
+  border: #0192d1 3px solid;
   transition: 0.5s;
 }
 
@@ -137,31 +138,31 @@
 }
 
 .index-pesquisa-ohana a {
-  border: #4ab8b9 3px solid;
+  border: #0192d1 3px solid;
   border-radius: 5px;
   padding: 1rem 3rem;
-  color: #4ab8b9;
+  color: #0192d1;
   font-weight: 700;
   cursor: pointer;
   transition: 0.5s;
 }
 
 .index-pesquisa-ohana > a:hover {
-  background-color: #4ab8b9;
+  background-color: #0192d1;
   color: #fff;
   transition: 0.5s;
 }
 
-.index-container-impactos {
+.index-citacao {
   padding: 6% 8.3%;
   display: flex;
   align-items: flex-end;
 }
 
-.index-container-impactos h2 {
+.index-citacao h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #fcc63e;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 3rem;
 }
@@ -174,7 +175,7 @@
   width: 100%;
 }
 
-.index-impactos-text > h2 {
+.index-impacto-text > h2 {
   margin-bottom: 3rem;
 }
 
@@ -191,7 +192,7 @@
 .index-parcerias-text h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 3rem;
 }
@@ -236,7 +237,7 @@
 .index-doar h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
-  color: #4ab8b9;
+  color: #0192d1;
   font-size: 2.3rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -257,11 +258,11 @@
 }
 
 .index-doar .button button {
-  border: #4ab8b9 3px solid;
+  border: #0192d1 3px solid;
   border-radius: 5px;
   padding: 1rem 3rem;
   background-color: #fff;
-  color: #4ab8b9;
+  color: #0192d1;
   font-weight: 700;
   cursor: pointer;
   transition: 0.5s;
@@ -270,7 +271,7 @@
 }
 
 .index-doar .button button:hover {
-  background-color: #4ab8b9;
+  background-color: #0192d1;
   color: #fff;
   transition: 0.5s;
 }
@@ -293,12 +294,12 @@
     margin: 2rem 0 6rem;
   }
 
-  .index-container-oferecemos {
+  .index-container-projetos {
     flex-direction: column;
   }
 
-  .index-container-oferecemos h2,
-  .index-container-impactos h2,
+  .index-container-projetos h2,
+  .index-citacao h2,
   .index-container-parcerias h2 {
     margin-bottom: 3.5rem;
   }
@@ -324,12 +325,12 @@
     padding: 0.7rem 1.5rem;
   }
 
-  .index-container-impactos {
+  .index-citacao {
     flex-direction: column;
     align-items: center;
   }
 
-  .index-impactos-text {
+  .index-impacto-text {
     width: auto;
     padding: 0;
   }
@@ -384,8 +385,8 @@
     margin: 2rem 0 3.5rem;
   }
 
-  .index-container-oferecemos h2,
-  .index-container-impactos h2,
+  .index-container-projetos h2,
+  .index-citacao h2,
   .index-container-parcerias h2 {
     font-size: 1.7rem;
     margin-top: 1.5rem;
@@ -403,7 +404,7 @@
 }
 
 @media (max-width: 576px) {
-  .index-container-oferecemos {
+  .index-container-projetos {
     flex-direction: column;
   }
 

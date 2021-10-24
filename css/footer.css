@@ -1,13 +1,10 @@
 footer {
-  background-color: #C4C4C4;
+  background-color: #93c33c;
   width: 100%;
   color: #000000;
   font-family: "Ubuntu", sans-serif;
 }
 
-footer p {
-  color: #fff;
-}
 
 p.copyright {
   font-size: .8rem;
@@ -15,17 +12,17 @@ p.copyright {
   color: #000000;
 }
 
-.main-content {
+.igd-logo-container {
   padding: 3% 8.3% 4%;
   display: flex;
   justify-content: center;
 }
 
-.ohana-logo {
+.igd-logo {
   width: 14.9375rem;
 }
 
-.logos {
+.secao-logos {
   display: flex;
   justify-content: space-around;
 }
@@ -45,14 +42,6 @@ p.copyright {
   margin-left: 2rem;
 }
 
-
-.enactus-logo {
-  width: 8rem;
-}
-
-.icones {
-  display: flex;
-}
 
 .redesSociais-texto {
   margin-bottom: 1.5rem;
@@ -75,21 +64,8 @@ p.copyright {
   margin-right: 1.673125rem;
 }
 
-.right-column {
-  text-align: end;
-}
 
-.right-column > h4 {
-  font-size: 0.9rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.right-column > p {
-  line-height: 1.2rem;
-}
-
-.bottom-content {
+.secao-copyright {
   font-size: 0.9rem;
   padding: 2.5% 8.3%;
   text-align: center;
@@ -110,3 +86,6 @@ p.copyright {
     margin-bottom: 1.5rem;
   }
 }
+
+
+

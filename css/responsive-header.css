@@ -3,12 +3,15 @@ body {
 }
 
 .header {
-  background-color: #4ab8b9;
+  background-color: #93c33c;
   position: fixed;
   top: 0;
   width: 100%;
   color: #fff;
+  padding: 0.8rem 2%;
+  filter: drop-shadow(5px 5px 5px #222); 
 }
+
 
 .nav {
   display: flex;
@@ -39,13 +42,14 @@ body {
 .nav-menu .nav-menu-item,
 .nav-menu-donate {
   display: inline-block;
-  padding: 1rem 0.6rem;
+  padding: 1rem 1.2rem;
 }
 
 .nav-menu .nav-menu-item > a {
   display: block;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
+  font-size: 1.1rem;
   margin: 0;
   padding: 0.3rem 0;
   border-bottom: transparent 4px solid;
@@ -77,12 +81,12 @@ body {
 
 .nav-menu-donate a:hover {
   background-color: #fff;
-  color: #4ab8b9;
+  color: #93c33c;
   transition: 0.5s;
 }
 
 .nav-menu-donate a.active {
-  border: #fcc63e 2px solid !important;
+  border: #fdd305 2px solid !important;
 }
 
 .item-dropdown .fa-chevron-down {
@@ -103,7 +107,7 @@ body {
   border-radius: 0.3rem;
   min-width: 200px;
   background-color: #fff;
-  color: #4ab8b9;
+  color: #93c33c;
   display: none;
   text-align: center;
   box-shadow: 4px 4px 18px -10px rgba(0,0,0,0.49);
@@ -136,7 +140,7 @@ body {
   display: block;
 }
 
-.nav-hamburguer {
+.nav-IGD {
   padding: 0.6rem;
   font-size: 1.5rem;
   display: none;
@@ -168,14 +172,7 @@ body {
     padding: 0.5rem 1.5rem;
   }
 
-  .ohana-menu-logo img {
-    width: 3.5rem;
-    margin-right: 0.8rem;
-  }
-
-  .ohana-menu-name img {
-    width: 5rem;
-  }
+  
 
   .menu-logo {
     display: flex;
@@ -183,7 +180,7 @@ body {
     justify-content: space-between;
   }
 
-  .nav-hamburguer {
+  .nav-IGD {
     display: block;
     padding-right: 2rem;
   }
@@ -215,7 +212,7 @@ body {
   }
 
   .nav-menu .nav-dropdown {
-    background-color: #4ab8b9;
+    background-color: #93c33c;
     color: #fff;
     font-weight: 500;
   }
@@ -230,7 +227,7 @@ body {
   }
 
   .nav-menu .nav-dropdown-item:hover {
-    background-color: #4ab8b9;
+    background-color: #93c33c;
   }
 
   .nav-dropdown {
@@ -242,4 +239,13 @@ body {
     position: static;
     text-align: left;
   }
+}
+
+.menu-container{
+
+  padding-right: 8rem;
+}
+
+.menu-logo{
+  padding-left: 4rem;
 }

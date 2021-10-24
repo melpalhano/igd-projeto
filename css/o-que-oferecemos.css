@@ -9,7 +9,7 @@
 .desc h2 {
   font-family: "Rowdies", cursive;
     text-transform: uppercase;
-    color: #4ab8b9;
+    color: #93c33c;
     font-size: 2.3rem;
 }
 
@@ -22,7 +22,7 @@
   padding-top: 5%;
 }
 
-.cards-container {
+.igd-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -63,7 +63,7 @@
   font-weight: 700;
   font-size: 2vw;
   color: #f5f5f5;
-  background-color: #4ab8b9;
+  background-color: #f4931e;
 }
 
 .card a {
@@ -88,7 +88,7 @@
 }
 
 @media (max-width: 768px) {
-  .cards-container {
+  .igd-container {
     display: flex;
     flex-direction: column;
     align-items: center;
