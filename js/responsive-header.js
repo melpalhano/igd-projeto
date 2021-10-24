@@ -16,3 +16,14 @@ $(document).ready(
     },
     setActivePage(activePage)
 );
+
+const itensMenu = document.querySelectorAll(".nav-menu-item");
+
+itensMenu.forEach(function(itemAtual) {
+    itemAtual.addEventListener('click', function() {
+        itensMenu.forEach(function(item) {
+            item.querySelector('a').classList.remove('active');
+        });
+        itemAtual.querySelector('a').classList.add('active');
+    });
+});
