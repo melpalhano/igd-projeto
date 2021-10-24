@@ -153,13 +153,13 @@
   transition: 0.5s;
 }
 
-.index-container-impactos {
+.index-citacao {
   padding: 6% 8.3%;
   display: flex;
   align-items: flex-end;
 }
 
-.index-container-impactos h2 {
+.index-citacao h2 {
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   color: #0192d1;
@@ -299,7 +299,7 @@
   }
 
   .index-container-oferecemos h2,
-  .index-container-impactos h2,
+  .index-citacao h2,
   .index-container-parcerias h2 {
     margin-bottom: 3.5rem;
   }
@@ -325,7 +325,7 @@
     padding: 0.7rem 1.5rem;
   }
 
-  .index-container-impactos {
+  .index-citacao {
     flex-direction: column;
     align-items: center;
   }
@@ -386,7 +386,7 @@
   }
 
   .index-container-oferecemos h2,
-  .index-container-impactos h2,
+  .index-citacao h2,
   .index-container-parcerias h2 {
     font-size: 1.7rem;
     margin-top: 1.5rem;
