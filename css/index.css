@@ -8,7 +8,7 @@
 }
 
 .index-main p {
-  line-height: 1.5rem;
+ line-height: 1.8rem;
 }
 
 .index-main h3 {
@@ -37,7 +37,7 @@
 
 .index-headline-content h1 {
   color: #f4931e;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
@@ -48,7 +48,7 @@
   color: #fff;
   max-width: 50%;
   text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
-  line-height: 1.4rem;
+  line-height: 1.7rem;
   margin-bottom: 4%;
   font-size: 1.1rem;
 }
@@ -74,7 +74,7 @@
 }
 
 .index-container-oferecemos {
-  padding: 5% 8.3% 6%;
+  padding: 12% 8.3% 9%;
   display: flex;
 }
 
