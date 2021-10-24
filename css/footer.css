@@ -64,6 +64,10 @@ p.copyright {
   margin-right: 1.673125rem;
 }
 
+.icones {
+  display: flex;
+}
+
 
 .secao-copyright {
   font-size: 0.9rem;
@@ -72,13 +76,13 @@ p.copyright {
 }
 
 @media (max-width: 450px) {
-  .logos {
+  .secao-logos {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .main-content {
+  .igd-logo-container {
     margin-bottom: 1.5rem;
   }
 
