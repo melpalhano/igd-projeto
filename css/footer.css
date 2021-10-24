@@ -5,9 +5,6 @@ footer {
   font-family: "Ubuntu", sans-serif;
 }
 
-footer p {
-  color: #fff;
-}
 
 p.copyright {
   font-size: .8rem;
@@ -15,36 +12,25 @@ p.copyright {
   color: #000000;
 }
 
-.main-content {
+.igd-logo-container {
   padding: 3% 8.3% 4%;
   display: flex;
   justify-content: center;
 }
 
-/*.column {
-  flex: 1;
-}*/
-
-/*.logos {
-  margin-right: 10%;
-}*/
-
-.ohana-logo {
+.igd-logo {
   width: 14.9375rem;
 }
 
-.logos {
+.secao-logos {
   display: flex;
-  justify-content: center;
-}
-
-.apoio {
-  margin-right: 7.10125rem;
+  justify-content: space-around;
 }
 
 .apoio-texto, .redesSociais-texto {
   text-align: center;
   color: #000000;
+  font-weight: bold;
 }
 
 .plataforma-logo {
@@ -56,14 +42,6 @@ p.copyright {
   margin-left: 2rem;
 }
 
-
-.enactus-logo {
-  width: 8rem;
-}
-
-.icones {
-  display: flex;
-}
 
 .redesSociais-texto {
   margin-bottom: 1.5rem;
@@ -86,51 +64,29 @@ p.copyright {
   margin-right: 1.673125rem;
 }
 
-.right-column {
-  text-align: end;
-}
 
-.right-column > h4 {
-  font-size: 0.9rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.right-column > p {
-  line-height: 1.2rem;
-}
-
-.bottom-content {
+.secao-copyright {
   font-size: 0.9rem;
   padding: 2.5% 8.3%;
   text-align: center;
 }
 
 @media (max-width: 992px) {
-  .main-content {
+  .igd-logo-container {
     flex-wrap: wrap;
   }
-  .enactus-logo {
-    width: 7rem;
-  }
-  .logos {
+
+  .secao-logos {
     margin-right: 0;
   }
 }
 @media (max-width: 768px) {
-  .main-content {
+  .igd-logo-container {
     flex-direction: column;
     align-items: stretch;
+
   }
-  .left-column {
-    text-align: center;
-    margin: 4% 0 11%;
-  }
-  .right-column {
-    text-align: center;
-    margin-bottom: 5%;
-  }
-  .bottom-content {
+  .secao-copyright {
     font-size: 0.8rem;
     padding: 4% 0;
   }
@@ -138,3 +94,6 @@ p.copyright {
     font-size: .9rem;
   }
 }
+
+
+

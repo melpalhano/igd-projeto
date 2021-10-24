@@ -1,49 +1,11 @@
-/* Arquivo para unificar a importacao dos css para que haja somente um import */
-
-/* Estilos para unificar o comportamento dos navegadores  */
-
 @import url("reset.css");
-
-/* Arquivo destinado a importacao de fonts */
 @import url("fonts.css");
-
-/* Estilos pertinentes ao header do site */
 @import url("responsive-header.css");
-
-/* Estilos pertinentes ao footer do site */
 @import url("footer.css");
-
-/*Estilos pertinentes a Página Inicial */
 @import url("index.css");
-
-/*Estilos pertinentes a pagina Quem Somos */
 @import url("quem-somos.css");
-
-/* Estilos pertinentes a pagina o-que-oferecemos */
 @import url("o-que-oferecemos.css");
-
-/* Estilos pertinentes a pagina OhanaApp */
-@import url("OhanaApp.css");
-
-/* Estilos pertinentes a pagina ciclo-de-formacao */
-@import url("ciclo-de-formacao.css");
-
-/* Estilos pertinentes a pagina Doar */
-@import url("doar.css");
-
-/* Estilos pertinentes as paginas: 
-- ciclo-de-formacao
-- OhanaApp
-- OhanaCast
- */
 @import url("margin-h2-content.css");
-
-/* Estilos pertinentes ao acessório do Spotify */
-@import url("spotify.css");
-
-/* Estilos pertinentes ao Parallax */
 @import url("parallaxSec.css");
-
-/* Estilos pertinentes a página Contato */
 @import url("contato.css")
 
