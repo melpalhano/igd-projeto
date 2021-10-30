@@ -248,3 +248,9 @@ body {
 .menu-logo{
   padding-left: 4rem;
 }
+
+@media (max-width: 380px) {
+  .menu-logo {
+    padding: 0;
+  }
+}
